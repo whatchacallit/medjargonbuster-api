@@ -1,0 +1,36 @@
+FROM openjdk:slim
+COPY --from=python:3.8 / /
+
+
+ENV LOG_LEVEL debug
+ENV WEB_CONCURRENCY 2
+
+
+
+
+###############################################################################################
+########## PYTHON 
+###############################################################################################
+
+
+WORKDIR /usr/src/app
+
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+COPY extractor .
+COPY preprocessor .
+COPY summarizer .
+COPY analyzer .
+
+
+# This is where python tika expects the .jar - otherwise it will download it on first request, 
+# which makes for a long cold start
+COPY tika/tika-server* /usr/tmp/
+
+
+EXPOSE 5000
+
+ENTRYPOINT ["uvicorn", "--host", "0.0.0.0",  "--port", "5000", "main:app"]

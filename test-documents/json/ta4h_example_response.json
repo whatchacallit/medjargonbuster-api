@@ -1,0 +1,617 @@
+{
+    "documents": [
+        {
+            "id": "demo",
+            "entities": [
+                {
+                    "id": "0",
+                    "offset": 37,
+                    "length": 13,
+                    "text": "breast cancer",
+                    "category": "Diagnosis",
+                    "confidenceScore": 1,
+                    "isNegated": false,
+                    "links": [
+                        {
+                            "dataSource": "UMLS",
+                            "id": "C0006142"
+                        },
+                        {
+                            "dataSource": "AOD",
+                            "id": "0000004579"
+                        },
+                        {
+                            "dataSource": "BI",
+                            "id": "BI00371"
+                        },
+                        {
+                            "dataSource": "CCPSS",
+                            "id": "1017392"
+                        },
+                        {
+                            "dataSource": "CCS",
+                            "id": "24"
+                        },
+                        {
+                            "dataSource": "CHV",
+                            "id": "0000002152"
+                        },
+                        {
+                            "dataSource": "CSP",
+                            "id": "2016-0671"
+                        },
+                        {
+                            "dataSource": "ICD10",
+                            "id": "C50.9"
+                        },
+                        {
+                            "dataSource": "ICD10AM",
+                            "id": "C50.9"
+                        },
+                        {
+                            "dataSource": "ICD10CM",
+                            "id": "C50"
+                        },
+                        {
+                            "dataSource": "ICPC",
+                            "id": "X76"
+                        },
+                        {
+                            "dataSource": "LCH_NW",
+                            "id": "sh85016679"
+                        },
+                        {
+                            "dataSource": "LNC",
+                            "id": "LA14283-8"
+                        },
+                        {
+                            "dataSource": "MDR",
+                            "id": "10006187"
+                        },
+                        {
+                            "dataSource": "MEDCIN",
+                            "id": "232253"
+                        },
+                        {
+                            "dataSource": "MEDLINEPLUS",
+                            "id": "3"
+                        },
+                        {
+                            "dataSource": "MSH",
+                            "id": "D001943"
+                        },
+                        {
+                            "dataSource": "MTHICD9",
+                            "id": "174.9"
+                        },
+                        {
+                            "dataSource": "NCI",
+                            "id": "C9335"
+                        },
+                        {
+                            "dataSource": "NCI_CPTAC",
+                            "id": "C9335"
+                        },
+                        {
+                            "dataSource": "NCI_CTRP",
+                            "id": "C9335"
+                        },
+                        {
+                            "dataSource": "OMIM",
+                            "id": "MTHU017027"
+                        },
+                        {
+                            "dataSource": "PDQ",
+                            "id": "CDR0000038832"
+                        },
+                        {
+                            "dataSource": "RCD",
+                            "id": "X78WM"
+                        },
+                        {
+                            "dataSource": "RCDAE",
+                            "id": "X78WM"
+                        },
+                        {
+                            "dataSource": "SNOMEDCT_US",
+                            "id": "254837009"
+                        }
+                    ]
+                },
+                {
+                    "id": "1",
+                    "offset": 70,
+                    "length": 10,
+                    "text": "mastectomy",
+                    "category": "TreatmentName",
+                    "confidenceScore": 1,
+                    "isNegated": false,
+                    "links": [
+                        {
+                            "dataSource": "UMLS",
+                            "id": "C0024881"
+                        },
+                        {
+                            "dataSource": "AOD",
+                            "id": "0000008200"
+                        },
+                        {
+                            "dataSource": "CCPSS",
+                            "id": "0036789"
+                        },
+                        {
+                            "dataSource": "CCS",
+                            "id": "15.1.3"
+                        },
+                        {
+                            "dataSource": "CCS_10",
+                            "id": "167"
+                        },
+                        {
+                            "dataSource": "CHV",
+                            "id": "0000007778"
+                        },
+                        {
+                            "dataSource": "CPT",
+                            "id": "1015054"
+                        },
+                        {
+                            "dataSource": "CSP",
+                            "id": "2587-7131"
+                        },
+                        {
+                            "dataSource": "ICD9CM",
+                            "id": "85.4"
+                        },
+                        {
+                            "dataSource": "ICPC2P",
+                            "id": "X52019"
+                        },
+                        {
+                            "dataSource": "LCH",
+                            "id": "U002831"
+                        },
+                        {
+                            "dataSource": "LCH_NW",
+                            "id": "sh85081984"
+                        },
+                        {
+                            "dataSource": "MDR",
+                            "id": "10026878"
+                        },
+                        {
+                            "dataSource": "MEDCIN",
+                            "id": "191346"
+                        },
+                        {
+                            "dataSource": "MEDLINEPLUS",
+                            "id": "3752"
+                        },
+                        {
+                            "dataSource": "MSH",
+                            "id": "D008408"
+                        },
+                        {
+                            "dataSource": "NCI",
+                            "id": "C15277"
+                        },
+                        {
+                            "dataSource": "NCI_CPTAC",
+                            "id": "C15277"
+                        },
+                        {
+                            "dataSource": "NCI_CTRP",
+                            "id": "C15277"
+                        },
+                        {
+                            "dataSource": "NCI_NCI-GLOSS",
+                            "id": "CDR0000045777"
+                        },
+                        {
+                            "dataSource": "PSY",
+                            "id": "29850"
+                        },
+                        {
+                            "dataSource": "RCD",
+                            "id": "7130."
+                        },
+                        {
+                            "dataSource": "SNM",
+                            "id": "P-1100"
+                        },
+                        {
+                            "dataSource": "SNMI",
+                            "id": "P1-48350"
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "offset": 139,
+                    "length": 8,
+                    "text": "physical",
+                    "category": "SymptomOrSign",
+                    "confidenceScore": 0.6,
+                    "isNegated": false,
+                    "links": [
+                        {
+                            "dataSource": "UMLS",
+                            "id": "C1509143"
+                        },
+                        {
+                            "dataSource": "LNC",
+                            "id": "MTHU000078"
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "offset": 190,
+                    "length": 3,
+                    "text": "low",
+                    "category": "MeasurementValue",
+                    "confidenceScore": 0.97,
+                    "isNegated": false
+                },
+                {
+                    "id": "4",
+                    "offset": 194,
+                    "length": 13,
+                    "text": "mean ibr rate",
+                    "category": "ExaminationName",
+                    "confidenceScore": 0.98,
+                    "isNegated": false
+                },
+                {
+                    "id": "5",
+                    "offset": 211,
+                    "length": 2,
+                    "text": "18",
+                    "category": "MeasurementValue",
+                    "confidenceScore": 1,
+                    "isNegated": false
+                },
+                {
+                    "id": "6",
+                    "offset": 213,
+                    "length": 1,
+                    "text": "%",
+                    "category": "MeasurementUnit",
+                    "confidenceScore": 1,
+                    "isNegated": false
+                },
+                {
+                    "id": "7",
+                    "offset": 239,
+                    "length": 10,
+                    "text": "mastectomy",
+                    "category": "TreatmentName",
+                    "confidenceScore": 1,
+                    "isNegated": false,
+                    "links": [
+                        {
+                            "dataSource": "UMLS",
+                            "id": "C0024881"
+                        },
+                        {
+                            "dataSource": "AOD",
+                            "id": "0000008200"
+                        },
+                        {
+                            "dataSource": "CCPSS",
+                            "id": "0036789"
+                        },
+                        {
+                            "dataSource": "CCS",
+                            "id": "15.1.3"
+                        },
+                        {
+                            "dataSource": "CCS_10",
+                            "id": "167"
+                        },
+                        {
+                            "dataSource": "CHV",
+                            "id": "0000007778"
+                        },
+                        {
+                            "dataSource": "CPT",
+                            "id": "1015054"
+                        },
+                        {
+                            "dataSource": "CSP",
+                            "id": "2587-7131"
+                        },
+                        {
+                            "dataSource": "ICD9CM",
+                            "id": "85.4"
+                        },
+                        {
+                            "dataSource": "ICPC2P",
+                            "id": "X52019"
+                        },
+                        {
+                            "dataSource": "LCH",
+                            "id": "U002831"
+                        },
+                        {
+                            "dataSource": "LCH_NW",
+                            "id": "sh85081984"
+                        },
+                        {
+                            "dataSource": "MDR",
+                            "id": "10026878"
+                        },
+                        {
+                            "dataSource": "MEDCIN",
+                            "id": "191346"
+                        },
+                        {
+                            "dataSource": "MEDLINEPLUS",
+                            "id": "3752"
+                        },
+                        {
+                            "dataSource": "MSH",
+                            "id": "D008408"
+                        },
+                        {
+                            "dataSource": "NCI",
+                            "id": "C15277"
+                        },
+                        {
+                            "dataSource": "NCI_CPTAC",
+                            "id": "C15277"
+                        },
+                        {
+                            "dataSource": "NCI_CTRP",
+                            "id": "C15277"
+                        },
+                        {
+                            "dataSource": "NCI_NCI-GLOSS",
+                            "id": "CDR0000045777"
+                        },
+                        {
+                            "dataSource": "PSY",
+                            "id": "29850"
+                        },
+                        {
+                            "dataSource": "RCD",
+                            "id": "7130."
+                        },
+                        {
+                            "dataSource": "SNM",
+                            "id": "P-1100"
+                        },
+                        {
+                            "dataSource": "SNMI",
+                            "id": "P1-48350"
+                        }
+                    ]
+                },
+                {
+                    "id": "8",
+                    "offset": 254,
+                    "length": 22,
+                    "text": "invasive breast cancer",
+                    "category": "Diagnosis",
+                    "confidenceScore": 0.98,
+                    "isNegated": false,
+                    "links": [
+                        {
+                            "dataSource": "UMLS",
+                            "id": "C0853879"
+                        },
+                        {
+                            "dataSource": "CHV",
+                            "id": "0000050206"
+                        },
+                        {
+                            "dataSource": "MDR",
+                            "id": "10075713"
+                        },
+                        {
+                            "dataSource": "NCI",
+                            "id": "C9245"
+                        },
+                        {
+                            "dataSource": "NCI_CTEP-SDC",
+                            "id": "10006190"
+                        },
+                        {
+                            "dataSource": "NCI_CTRP",
+                            "id": "C9245"
+                        },
+                        {
+                            "dataSource": "NCI_NCI-GLOSS",
+                            "id": "CDR0000537695"
+                        },
+                        {
+                            "dataSource": "SNOMEDCT_US",
+                            "id": "713609000"
+                        }
+                    ]
+                },
+                {
+                    "id": "9",
+                    "offset": 313,
+                    "length": 9,
+                    "text": "ibr-rates",
+                    "category": "ExaminationName",
+                    "confidenceScore": 1,
+                    "isNegated": false
+                },
+                {
+                    "id": "10",
+                    "offset": 330,
+                    "length": 13,
+                    "text": "substantially",
+                    "category": "MeasurementValue",
+                    "confidenceScore": 0.56,
+                    "isNegated": false
+                },
+                {
+                    "id": "11",
+                    "offset": 391,
+                    "length": 30,
+                    "text": "health-related quality of life",
+                    "category": "ExaminationName",
+                    "confidenceScore": 0.86,
+                    "isNegated": false,
+                    "links": [
+                        {
+                            "dataSource": "UMLS",
+                            "id": "C4279947"
+                        },
+                        {
+                            "dataSource": "MSH",
+                            "id": "D011788"
+                        },
+                        {
+                            "dataSource": "NCI",
+                            "id": "C142570"
+                        },
+                        {
+                            "dataSource": "NCI_CDISC-GLOSS",
+                            "id": "C142570"
+                        }
+                    ]
+                },
+                {
+                    "id": "12",
+                    "offset": 441,
+                    "length": 21,
+                    "text": "breast cancer surgery",
+                    "category": "TreatmentName",
+                    "confidenceScore": 0.95,
+                    "isNegated": false
+                },
+                {
+                    "id": "13",
+                    "offset": 472,
+                    "length": 5,
+                    "text": "proms",
+                    "category": "ExaminationName",
+                    "confidenceScore": 0.9,
+                    "isNegated": false,
+                    "links": [
+                        {
+                            "dataSource": "UMLS",
+                            "id": "C0015944"
+                        },
+                        {
+                            "dataSource": "CCPSS",
+                            "id": "0043301"
+                        },
+                        {
+                            "dataSource": "CCS",
+                            "id": "11.4.5.1"
+                        },
+                        {
+                            "dataSource": "CHV",
+                            "id": "0000004997"
+                        },
+                        {
+                            "dataSource": "HPO",
+                            "id": "HP:0001788"
+                        },
+                        {
+                            "dataSource": "ICD10",
+                            "id": "O42.9"
+                        },
+                        {
+                            "dataSource": "ICD10AM",
+                            "id": "O42.9"
+                        },
+                        {
+                            "dataSource": "ICD10CM",
+                            "id": "O42"
+                        },
+                        {
+                            "dataSource": "ICD9CM",
+                            "id": "658.1"
+                        },
+                        {
+                            "dataSource": "ICPC2ICD10ENG",
+                            "id": "MTHU012683"
+                        },
+                        {
+                            "dataSource": "ICPC2P",
+                            "id": "W84027"
+                        },
+                        {
+                            "dataSource": "LNC",
+                            "id": "LA20068-5"
+                        },
+                        {
+                            "dataSource": "MDR",
+                            "id": "10036603"
+                        },
+                        {
+                            "dataSource": "MEDCIN",
+                            "id": "34308"
+                        },
+                        {
+                            "dataSource": "MSH",
+                            "id": "D005322"
+                        },
+                        {
+                            "dataSource": "NCI",
+                            "id": "C87113"
+                        },
+                        {
+                            "dataSource": "NCI_NICHD",
+                            "id": "C87113"
+                        },
+                        {
+                            "dataSource": "OMIM",
+                            "id": "MTHU037411"
+                        },
+                        {
+                            "dataSource": "RCD",
+                            "id": "L281."
+                        },
+                        {
+                            "dataSource": "SNM",
+                            "id": "F-31830"
+                        },
+                        {
+                            "dataSource": "SNMI",
+                            "id": "D8-22120"
+                        },
+                        {
+                            "dataSource": "SNOMEDCT_US",
+                            "id": "44223004"
+                        }
+                    ]
+                }
+            ],
+            "relations": [
+                {
+                    "relationType": "ValueOfExamination",
+                    "bidirectional": false,
+                    "source": "#/documents/0/entities/3",
+                    "target": "#/documents/0/entities/4"
+                },
+                {
+                    "relationType": "ValueOfExamination",
+                    "bidirectional": false,
+                    "source": "#/documents/0/entities/5",
+                    "target": "#/documents/0/entities/4"
+                },
+                {
+                    "relationType": "UnitOfExamination",
+                    "bidirectional": false,
+                    "source": "#/documents/0/entities/6",
+                    "target": "#/documents/0/entities/4"
+                },
+                {
+                    "relationType": "ValueOfExamination",
+                    "bidirectional": false,
+                    "source": "#/documents/0/entities/10",
+                    "target": "#/documents/0/entities/9"
+                }
+            ]
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2020-09-03"
+}

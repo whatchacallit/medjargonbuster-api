@@ -1,0 +1,581 @@
+[
+  {
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a person who has earned one of the highest academic degrees (as a PhD) conferred by a university"
+                  ]
+                ],
+                "sn": "1 a"
+              }
+            ],
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a person awarded an honorary {a_link|doctorate} by a college or university"
+                  ]
+                ],
+                "sn": "b"
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a person skilled or specializing in healing arts"
+                  ]
+                ],
+                "sdsense": {
+                  "dt": [
+                    [
+                      "text",
+                      "{bc}one (as a physician, dentist, or veterinarian) who holds an advanced degree and is licensed to practice"
+                    ]
+                  ],
+                  "sd": "especially"
+                },
+                "sn": "2"
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "fl": "noun",
+    "hom": 1,
+    "hwi": {
+      "hw": "doc*tor",
+      "prs": [
+        {
+          "mw": "ˈdäk-tər",
+          "sound": {
+            "audio": "doctor01"
+          }
+        }
+      ]
+    },
+    "meta": {
+      "id": "doctor:1",
+      "offensive": false,
+      "section": "alpha",
+      "sort": "161522000",
+      "src": "medical",
+      "stems": [
+        "doctor",
+        "doctor of the church",
+        "doctoral",
+        "doctorless",
+        "doctors",
+        "doctorship",
+        "doctorships"
+      ],
+      "uuid": "71fc55e0-49b2-4152-a80a-ad23895c12a6"
+    },
+    "shortdef": [
+      "a person who has earned one of the highest academic degrees (as a PhD) conferred by a university",
+      "a person awarded an honorary doctorate by a college or university",
+      "a person skilled or specializing in healing arts; especially : one (as a physician, dentist, or veterinarian) who holds an advanced degree and is licensed to practice"
+    ]
+  },
+  {
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}to give medical treatment to"
+                  ]
+                ],
+                "sn": "1"
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|castrate|castrate|1}, {sx|spay|spay|} "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "have your pet cat {wi}doctored{/wi}"
+                      }
+                    ]
+                  ]
+                ],
+                "sn": "2"
+              }
+            ]
+          ]
+        ],
+        "vd": "transitive verb"
+      },
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}to practice medicine"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ],
+        "vd": "intransitive verb"
+      }
+    ],
+    "fl": "verb",
+    "hom": 2,
+    "hwi": {
+      "hw": "doctor"
+    },
+    "ins": [
+      {
+        "if": "doc*tored"
+      },
+      {
+        "if": "doc*tor*ing",
+        "prs": [
+          {
+            "mw": "-t(ə-)riŋ",
+            "sound": {
+              "audio": "doctor02"
+            }
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "id": "doctor:2",
+      "offensive": false,
+      "section": "alpha",
+      "sort": "161523000",
+      "src": "medical",
+      "stems": [
+        "doctor",
+        "doctored",
+        "doctoring",
+        "doctors"
+      ],
+      "uuid": "245160af-5100-409b-9b1c-d45528838ab9"
+    },
+    "shortdef": [
+      "to give medical treatment to",
+      "castrate, spay",
+      "to practice medicine"
+    ]
+  },
+  {
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}an auxiliary medical worker trained to provide health care in rural areas of China"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "fl": "noun",
+    "hwi": {
+      "hw": "bare*foot doctor",
+      "prs": [
+        {
+          "mw": "ˌba(ə)r-ˌfu̇t-, ˌbe(ə)r-",
+          "sound": {
+            "audio": "baref01m"
+          }
+        }
+      ]
+    },
+    "meta": {
+      "id": "barefoot doctor",
+      "offensive": false,
+      "section": "alpha",
+      "sort": "160170000",
+      "src": "medical",
+      "stems": [
+        "barefoot doctor",
+        "barefoot doctors"
+      ],
+      "uuid": "aaecb6b2-e6f2-4a70-9623-a90d79c77d84"
+    },
+    "shortdef": [
+      "an auxiliary medical worker trained to provide health care in rural areas of China"
+    ]
+  },
+  {
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a specialist (as an optometrist or ophthalmologist) in the examination, treatment, or care of the eyes"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "fl": "noun",
+    "hwi": {
+      "hw": "eye doctor"
+    },
+    "meta": {
+      "id": "eye doctor",
+      "offensive": false,
+      "section": "alpha",
+      "sort": "161878000",
+      "src": "medical",
+      "stems": [
+        "eye doctor",
+        "eye doctors"
+      ],
+      "uuid": "a41f93e1-d4fd-42a7-a838-26b998ec8e13"
+    },
+    "shortdef": [
+      "a specialist (as an optometrist or ophthalmologist) in the examination, treatment, or care of the eyes"
+    ]
+  },
+  {
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a doctor regularly consulted by a family in time of medical need"
+                  ]
+                ],
+                "sn": "1"
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|family physician|family physician|2}"
+                  ]
+                ],
+                "sn": "2"
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "fl": "noun",
+    "hwi": {
+      "hw": "family doctor"
+    },
+    "meta": {
+      "id": "family doctor",
+      "offensive": false,
+      "section": "alpha",
+      "sort": "160115000",
+      "src": "medical",
+      "stems": [
+        "family doctor",
+        "family doctors"
+      ],
+      "uuid": "36a5102f-bc1d-43c1-80cc-b3e04a8412f9"
+    },
+    "shortdef": [
+      "a doctor regularly consulted by a family in time of medical need",
+      "family physician"
+    ]
+  },
+  {
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|herbalist|herbalist|2}"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "fl": "noun",
+    "hwi": {
+      "hw": "herb doctor"
+    },
+    "meta": {
+      "id": "herb doctor",
+      "offensive": false,
+      "section": "alpha",
+      "sort": "160624000",
+      "src": "medical",
+      "stems": [
+        "herb doctor",
+        "herb doctors"
+      ],
+      "uuid": "e46f34ab-3e25-4d70-a0c8-283cc11c80ef"
+    },
+    "shortdef": [
+      "herbalist"
+    ]
+  },
+  {
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a physician who is in residence at an establishment (as a hotel) or on the premises temporarily (as during the performance of a play) in the event of a medical emergency"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "fl": "noun",
+    "hwi": {
+      "hw": "house doctor"
+    },
+    "meta": {
+      "id": "house doctor",
+      "offensive": false,
+      "section": "alpha",
+      "sort": "161227000",
+      "src": "medical",
+      "stems": [
+        "house doctor"
+      ],
+      "uuid": "010f08fd-598b-48b8-b064-7bdf438a3c96"
+    },
+    "shortdef": [
+      "a physician who is in residence at an establishment (as a hotel) or on the premises temporarily (as during the performance of a play) in the event of a medical emergency"
+    ]
+  },
+  {
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|psychiatrist|psychiatrist|}"
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "fl": "noun",
+    "hwi": {
+      "hw": "mad-doctor",
+      "prs": [
+        {
+          "mw": "ˈmad-ˌ",
+          "sound": {
+            "audio": "maddo01m"
+          }
+        }
+      ]
+    },
+    "meta": {
+      "id": "mad-doctor",
+      "offensive": false,
+      "section": "alpha",
+      "sort": "160107000",
+      "src": "medical",
+      "stems": [
+        "mad-doctor"
+      ],
+      "uuid": "376a76c8-f653-4853-a207-1f5350d761db"
+    },
+    "shortdef": [
+      "psychiatrist"
+    ]
+  },
+  {
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|family doctor|family doctor|1}"
+                  ]
+                ],
+                "sn": "1"
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a doctor specializing in family practice"
+                  ]
+                ],
+                "sn": "2"
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "fl": "noun",
+    "hwi": {
+      "hw": "family physician"
+    },
+    "meta": {
+      "id": "family physician",
+      "offensive": false,
+      "section": "alpha",
+      "sort": "160116000",
+      "src": "medical",
+      "stems": [
+        "family doctor",
+        "family physician",
+        "family physicians"
+      ],
+      "uuid": "0a29d3cc-5352-4108-8506-7863a5afd4fb"
+    },
+    "shortdef": [
+      "family doctor",
+      "a doctor specializing in family practice"
+    ]
+  },
+  {
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|family doctor|family doctor|1}"
+                  ]
+                ],
+                "sn": "1"
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|family physician|family physician|2}"
+                  ]
+                ],
+                "sn": "2"
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "fl": "noun",
+    "hwi": {
+      "hw": "family practitioner"
+    },
+    "meta": {
+      "id": "family practitioner",
+      "offensive": false,
+      "section": "alpha",
+      "sort": "160119000",
+      "src": "medical",
+      "stems": [
+        "family doctor",
+        "family practitioner",
+        "family practitioners"
+      ],
+      "uuid": "7ee6b7e2-beb7-4a7a-b67e-cde114e85216"
+    },
+    "shortdef": [
+      "family doctor",
+      "family physician"
+    ]
+  }
+]
