@@ -1,0 +1,18 @@
+en-core-web-md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-2.3.1/en_core_web_md-2.3.1.tar.gz
+python-dotenv
+python-multipart
+requests
+black
+fastapi
+spacy
+spacy-readability
+textacy
+tika
+wikipedia
+newspaper3k
+uvicorn
+symspellpy
+azure-cognitiveservices-vision-computervision
+gensim
+rouge-score
+pytest

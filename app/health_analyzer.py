@@ -24,8 +24,12 @@ class HealthAnalyzer(object):
         self._endpoint = os.getenv("AZ_TA_FOR_HEALTH_ENDPOINT")
 
     def __call__(self, doc: Doc):
-        if not doc.has_extension(STAGE.HEALTH_ANALYZER):
+        if not doc.has_extension(STAGE.HEALTH_ANALYZER) and self._endpoint:
             doc.set_extension(STAGE.HEALTH_ANALYZER, getter=self._analyze_health_text)
+        if not self._endpoint:
+            log.warning(
+                "No endpoint for Azure Text Analytics for health, pls configure env vars ('AZ_TA_FOR_HEALTH_ENDPOINT' etc..)"
+            )
 
         return doc
 
@@ -106,6 +110,8 @@ class HealthAnalyzer(object):
         """
 
         assert doc.has_extension(STAGE.HEALTH_ANALYZER)
+        if not self._endpoint:
+            return {}
 
         headers = (
             {}

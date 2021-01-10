@@ -1,13 +1,12 @@
 {
     "python.formatting.provider": "black",
-    "python.pythonPath": "c:\\Users\\flgeorg\\OneDrive - Microsoft\\Documents\\repositories\\whatchacallit\\backend\\venv\\Scripts\\python.exe",
+    "python.pythonPath": "${workspaceFolder}\\venv\\Scripts\\python.exe",
     "python.testing.pytestArgs": [
+        "-s",
         "tests"
     ],
     "python.languageServer": "Pylance",
-    "python.analysis.extraPaths": [
-        "c:\\Users\\flgeorg\\OneDrive - Microsoft\\Documents\\repositories\\whatchacallit\\backend\\venv\\Lib\\site-packages"
-    ],
+    "python.analysis.extraPaths": [],
     "python.testing.unittestEnabled": false,
     "python.testing.nosetestsEnabled": false,
     "python.testing.pytestEnabled": true

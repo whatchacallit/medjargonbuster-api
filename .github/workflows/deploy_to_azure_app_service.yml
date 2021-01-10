@@ -1,0 +1,29 @@
+name: Build & deploy to Azure App Service for Contaienrs
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Build, tag & push container to Azure container registry
+    - uses: actions/checkout@v2
+    - uses: azure/docker-login@v1
+      with:
+        login-server: medjargonbuster.azurecr.io
+        username: ${{ secrets.REGISTRY_USERNAME }}
+        password: ${{ secrets.REGISTRY_PASSWORD }}
+    - run: |
+        docker build . -t medjargonbuster.azurecr.io/medjargonbuster-api:${{ github.sha }}
+        docker push medjargonbuster.azurecr.io/medjargonbuster-api:${{ github.sha }}
+
+    # Deploy to Azure App Service (Containers)
+    - uses: azure/webapps-deploy@v2
+      with:
+        app-name: 'medjargonbusterapi'
+        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+        images: 'medjargonbuster.azurecr.io/medjargonbuster-api:${{ github.sha }}'
+        # slot: 'staging'
+
+

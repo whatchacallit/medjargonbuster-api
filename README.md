@@ -83,6 +83,32 @@ cd tests
 pytest .
 ```
 
+# Deploy on Azure using Github Actions
+We use GitHub Actions to deploy to Azure. If you want to run your own installation on Azure,
+please see below. It also shouldn't be too complicated to deploy this on other platforms, but you'll be on you own.
+
+See the docs for using GitHub Actions for Containers to deploy to Azure App Service.
+https://docs.microsoft.com/en-us/azure/app-service/deploy-container-github-action?tabs=publish-profile
+
+# Prerequisites
+Do a fork of this repository on GitHub.
+
+# Create Azure Web App 
+Portal, or via az CLI:
+
+Also, 
+set WEBSITE_WEBDEPLOY_USE_SCM =true
+
+# Create a Publish Profile
+Save the publish profile to a local file.
+You can do this in the Azure portal Overview page of your App Service, 
+or use the CLI:
+```
+az ...
+```
+
+
+# Create a 
 
 
 # Links and resources
@@ -101,6 +127,7 @@ pytest .
 * Azure Text Analytics
 * Azure Text Analytics for Health
 * Azure Immersive Reader
+* Azure Key Vault: https://github.com/Azure/azure-sdk-for-python/tree/azure-keyvault-keys_4.3.1/sdk/keyvault/azure-keyvault-secrets
 
 * Abbyy Cloud OCR - SDK
 * Merriam-Webster Medical Dictionary v3 API
