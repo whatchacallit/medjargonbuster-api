@@ -44,7 +44,7 @@ prefix = os.getenv("CLUSTER_ROUTE_PREFIX", "").rstrip("/")
 
 api = FastAPI(
     title="MedJargonBuster API",
-    version="v2",
+    version="v1",
     description="MedJargonBuster is an open-source solution to make medical documents easier to understand for patients, healthcare workers and others. \
         Based on FastAPI, spaCy, Azure Cloud services and best-of-breed open source NLP components and models.",
     openapi_prefix=prefix,
@@ -329,8 +329,8 @@ async def getIRToken():
 
 #
 #
-# Export the API as v2
+# Export the API as v1
 #
 #
 #
-API_V2 = api
+API_V1 = api

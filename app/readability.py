@@ -31,14 +31,6 @@ class ReadabilityCalculator(object):
             # spacy_readability needs a "Doc" object
             summary_sents = [str(s) for s in doc._.summarizer]
 
-            # SMOG needs > 30 sentences.
-            # TODO not sure duplication is the correct way of handling this, but formula looks robust:
-            # https://en.wikipedia.org/wiki/SMOG
-            n = len(summary_sents)
-            while n < 30:
-                summary_sents += [str(s) for s in doc._.summarizer]
-                n = len(summary_sents)
-
             summary_text = "\n".join([str(s) for s in summary_sents])
 
             # FIXME Sentencizer is needed by spacy_readability, but this here does not seem to work.

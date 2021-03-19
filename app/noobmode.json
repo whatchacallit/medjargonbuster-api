@@ -1,0 +1,367 @@
+summon falling_block ~ ~1 ~ {Block:stone,Time: 1,Passengers: [
+        {id:falling_block,Block:redstone_block,Time: 1,Passengers: [
+                {id:falling_block,Block:activator_rail,Time: 1,Passengers: [
+                        {id:commandblock_minecart,Command: "gamerule commandBlockOutput false"
+                        },
+                        {id:commandblock_minecart,Command: "fill ~2 ~-3 ~-2 ~12 ~3 ~2 stained_hardened_clay 15 hollow"
+                        },
+                        {id:commandblock_minecart,Command: "fill ~2 ~-2 ~-2 ~12 ~2 ~2 stained_glass 5 0 stained_hardened_clay"
+                        },
+                        {id:commandblock_minecart,Command: "/fill ~2 ~-2 ~2 ~2 ~2 ~2 stained_hardened_clay 15"
+                        },
+                        {id:commandblock_minecart,Command: "/fill ~2 ~-2 ~-2 ~2 ~2 ~-2 stained_hardened_clay 15"
+                        },
+                        {id:commandblock_minecart,Command: "/fill ~12 ~-2 ~2 ~12 ~2 ~2 stained_hardened_clay 15"
+                        },
+                        {id:commandblock_minecart,Command: "/fill ~12 ~-2 ~-2 ~12 ~2 ~-2 stained_hardened_clay 15"
+                        },
+                        {id:commandblock_minecart,Command: "/tellraw @p [\"\",{\"text\":\"\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\nSuper Noob Difficulty\",\"color\":\"gold\",\"bold\":true},{\"text\":\" by \",\"color\":\"none\",\"bold\":false},{\"text\":\"McMakistein\\n\",\"color\":\"blue\",\"bold\":true},{\"text\":\"Check out my social media for more of my work!\\n\\n\",\"color\":\"green\",\"italic\":true,\"bold\":false},{\"text\":\"[Twitter] \",\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://twitter.com/MrMakistein\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":{\"text\":\"\",\"extra\":[{\"text\":\"Click to follow me!\"}]}},\"italic\":false},{\"text\":\" - \",\"color\":\"black\"},{\"text\":\"[Youtube] \",\"color\":\"red\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/user/McMakistein\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":{\"text\":\"\",\"extra\":[{\"text\":\"Subscribe to my channel!\"}]}}},{\"text\":\" - \",\"color\":\"black\"},{\"text\":\"[Facebook]\\n\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.facebook.com/McMakistein\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":{\"text\":\"\",\"extra\":[{\"text\":\"Like my page!\"}]}}}]"
+                        },
+                        {id:commandblock_minecart,Command: "/gamerule sendCommandFeedback false"
+                        },
+                        {id:commandblock_minecart,Command: "/gamerule logAdminCommands false"
+                        },
+                        {id:commandblock_minecart,Command: "/scoreboard objectives add Riding dummy"
+                        },
+                        {id:commandblock_minecart,Command: "/scoreboard objectives add mine3 dummy"
+                        },
+                        {id:commandblock_minecart,Command: "/scoreboard objectives add mine2 dummy"
+                        },
+                        {id:commandblock_minecart,Command: "/scoreboard objectives add mine1 dummy"
+                        },
+                        {id:commandblock_minecart,Command: "/scoreboard objectives add holding dummy"
+                        },
+                        {id:commandblock_minecart,Command: "/scoreboard objectives add dmg stat.damageDealt"
+                        },
+                        {id:commandblock_minecart,Command: "/scoreboard objectives add ET dummy"
+                        },
+                        {id:commandblock_minecart,Command: "setblock ~1 ~ ~ wall_sign 4 0 {Text1:\"{\\\"text\\\":\\\"\\\"}\",Text2:\"{\\\"text\\\":\\\"Destroy\\\"}\",Text3:\"{\\\"text\\\":\\\"Machine\\\"}\",Text4:\"{\\\"text\\\":\\\"\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"run_command\\\",\\\"value\\\":\\\"fill ~ ~-3 ~-2 ~11 ~3 ~2 air\\\"}}\"}"
+                        },
+                        {id:commandblock_minecart,Command: "fill ~3 ~-2 ~-1 ~11 ~2 ~1 chain_command_block 5"
+                        },
+                        {id:commandblock_minecart,Command: "fill ~4 ~2 ~1 ~5 ~2 ~1 chain_command_block 13"
+                        },
+                        {id:commandblock_minecart,Command: "setblock ~3 ~2 ~ chain_command_block 11"
+                        },
+                        {id:commandblock_minecart,Command: "setblock ~4 ~2 ~ chain_command_block 12"
+                        },
+                        {id:commandblock_minecart,Command: "setblock ~5 ~2 ~ chain_command_block 4"
+                        },
+                        {id:commandblock_minecart,Command: "fill ~7 ~2 ~ ~6 ~2 ~ chain_command_block 12"
+                        },
+                        {id:commandblock_minecart,Command: "setblock ~8 ~2 ~ chain_command_block 4"
+                        },
+                        {id:commandblock_minecart,Command: "fill ~10 ~2 ~ ~9 ~2 ~ chain_command_block 12"
+                        },
+                        {id:commandblock_minecart,Command: "setblock ~11 ~2 ~ chain_command_block 4"
+                        },
+                        {id:commandblock_minecart,Command: "setblock ~11 ~2 ~-1 chain_command_block 3"
+                        },
+                        {id:commandblock_minecart,Command: "setblock ~3 ~1 ~-1 chain_command_block 1"
+                        },
+                        {id:commandblock_minecart,Command: "fill ~11 ~1 ~-1 ~4 ~1 ~-1 chain_command_block 4"
+                        },
+                        {id:commandblock_minecart,Command: "setblock ~11 ~1 ~ chain_command_block 2"
+                        },
+                        {id:commandblock_minecart,Command: "setblock ~3 ~1 ~1 chain_command_block 2"
+                        },
+                        {id:commandblock_minecart,Command: "fill ~11 ~1 ~1 ~4 ~1 ~1 chain_command_block 4"
+                        },
+                        {id:commandblock_minecart,Command: "setblock ~11 ~ ~1 chain_command_block 1"
+                        },
+                        {id:commandblock_minecart,Command: "setblock ~3 ~ ~ chain_command_block 3"
+                        },
+                        {id:commandblock_minecart,Command: "fill ~11 ~ ~ ~4 ~ ~ chain_command_block 4"
+                        },
+                        {id:commandblock_minecart,Command: "setblock ~11 ~ ~-1 chain_command_block 3"
+                        },
+                        {id:commandblock_minecart,Command: "setblock ~3 ~-1 ~-1 chain_command_block 1"
+                        },
+                        {id:commandblock_minecart,Command: "fill ~11 ~-1 ~-1 ~4 ~-1 ~-1 chain_command_block 4"
+                        },
+                        {id:commandblock_minecart,Command: "setblock ~11 ~-1 ~ chain_command_block 2"
+                        },
+                        {id:commandblock_minecart,Command: "setblock ~3 ~-1 ~1 chain_command_block 2"
+                        },
+                        {id:commandblock_minecart,Command: "fill ~11 ~-1 ~1 ~4 ~-1 ~1 chain_command_block 4"
+                        },
+                        {id:commandblock_minecart,Command: "setblock ~11 ~-2 ~1 chain_command_block 1"
+                        },
+                        {id:commandblock_minecart,Command: "setblock ~3 ~-2 ~ chain_command_block 3"
+                        },
+                        {id:commandblock_minecart,Command: "fill ~11 ~-2 ~ ~4 ~-2 ~ chain_command_block 4"
+                        },
+                        {id:commandblock_minecart,Command: "setblock ~11 ~-2 ~-1 chain_command_block 3"
+                        },
+                        {id:commandblock_minecart,Command: "setblock ~3 ~-2 ~-1 repeating_command_block 5"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~5 ~2 ~1 {auto:1,Command:\"execute @a ~ ~ ~ /fill ~-1 ~1 ~-1 ~ ~3 ~-1 portal 3 replace obsidian 0\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~4 ~2 ~1 {auto:1,Command:\"execute @a ~ ~ ~ detect ~ ~ ~-1 standing_sign -1 /fill ~-2 ~ ~-1 ~1 ~4 ~-1 obsidian\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~3 ~2 ~1 {auto:1,Command:\"execute @a ~ ~ ~ /testforblock ~ ~ ~-1 standing_sign -1 {Text1:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Nether Portal\\\\\\\"}\\\"}\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~3 ~2 ~ {auto:1,Command:\"execute @a ~ ~ ~ /fill ~-1 ~1 ~1 ~ ~3 ~1 portal 3 replace obsidian 0\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~4 ~2 ~ {auto:1,Command:\"execute @a ~ ~ ~ detect ~ ~ ~1 standing_sign -1 /fill ~-2 ~ ~1 ~1 ~4 ~1 obsidian\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~5 ~2 ~ {auto:1,Command:\"execute @a[rym=-44,ry=44] ~ ~ ~ /testforblock ~ ~ ~1 standing_sign -1 {Text1:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Nether Portal\\\\\\\"}\\\"}\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~6 ~2 ~ {auto:1,Command:\"execute @a ~ ~ ~ /fill ~-1 ~1 ~-1 ~-1 ~3 ~ portal 2 replace obsidian 0\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~7 ~2 ~ {auto:1,Command:\"execute @a ~ ~ ~ detect ~-1 ~ ~ standing_sign -1 /fill ~-1 ~ ~-2 ~-1 ~4 ~1 obsidian\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~8 ~2 ~ {auto:1,Command:\"execute @a[rym=45,ry=135] ~ ~ ~ /testforblock ~-1 ~ ~ standing_sign -1 {Text1:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Nether Portal\\\\\\\"}\\\"}\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~9 ~2 ~ {auto:1,Command:\"execute @a ~ ~ ~ /fill ~1 ~1 ~-1 ~1 ~3 ~ portal 2 replace obsidian 0\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~10 ~2 ~ {auto:1,Command:\"execute @a ~ ~ ~ detect ~1 ~ ~ standing_sign -1 /fill ~1 ~ ~-2 ~1 ~4 ~1 obsidian\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~11 ~2 ~ {auto:1,Command:\"execute @a[ry=-45,rym=-135] ~ ~ ~ /testforblock ~1 ~ ~ standing_sign -1 {Text1:\\\"{\\\\\\\"text\\\\\\\":\\\\\\\"Nether Portal\\\\\\\"}\\\"}\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~11 ~2 ~-1 {auto:1,Command:\"scoreboard players set @e[type=stray] ET 2\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~10 ~2 ~-1 {auto:1,Command:\"scoreboard players set @e[type=skeleton] ET 2\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~9 ~2 ~-1 {auto:1,Command:\"scoreboard players set @e[type=husk] ET 2\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~8 ~2 ~-1 {auto:1,Command:\"scoreboard players set @e[type=wither_skeleton] ET 2\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~7 ~2 ~-1 {auto:1,Command:\"scoreboard players set @e[type=zombie_pigman] ET 2\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~6 ~2 ~-1 {auto:1,Command:\"scoreboard players set @e[type=zombie] ET 2\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~5 ~2 ~-1 {auto:1,Command:\"scoreboard players set @e[type=xp_orb] ET 0\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~4 ~2 ~-1 {auto:1,Command:\"scoreboard players set @e[type=minecart] ET 0\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~3 ~2 ~-1 {auto:1,Command:\"scoreboard players set @e[type=arrow] ET 0\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~3 ~1 ~-1 {auto:1,Command:\"scoreboard players set @e[type=player] ET 0\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~4 ~1 ~-1 {auto:1,Command:\"scoreboard players set @e[type=end_crystal] ET 0\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~5 ~1 ~-1 {auto:1,Command:\"scoreboard players set @e[type=armor_stand] ET 0\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~6 ~1 ~-1 {auto:1,Command:\"scoreboard players set @e[type=item] ET 0\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~7 ~1 ~-1 {auto:1,Command:\"scoreboard players set @e ET 1\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~8 ~1 ~-1 {auto:1,Command:\"execute @a ~ ~ ~ detect ~ ~ ~ enchanting_table -1 xp 100L @p\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~9 ~1 ~-1 {auto:1,Command:\"execute @a ~ ~ ~ detect ~ ~ ~ enchanting_table -1 xp -1000L @p\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~10 ~1 ~-1 {auto:1,Command:\"kill @e[tag=tp]\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~11 ~1 ~-1 {auto:1,Command:\"execute @a ~ ~ ~ tp @s[y=0,dy=-10] @e[tag=tp]\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~11 ~1 ~ {auto:1,Command:\"execute @a ~ ~ ~ execute @s[y=0,dy=-10] ~ ~ ~ spreadplayers ~ ~ 499 500 false @e[tag=tp]\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~10 ~1 ~ {auto:1,Command:\"kill @e[tag=tp]\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~9 ~1 ~ {auto:1,Command:\"execute @a ~ ~ ~ tp @s[y=0,dy=-10] @e[tag=tp]\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~8 ~1 ~ {auto:1,Command:\"execute @a ~ ~ ~ execute @s[y=0,dy=-10] ~ ~ ~ spreadplayers ~ ~ 99 100 false @e[tag=tp]\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~7 ~1 ~ {auto:1,Command:\"execute @a ~ ~ ~ tp @s[y=0,dy=-10] @e[tag=tp]\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~6 ~1 ~ {auto:1,Command:\"execute @a ~ ~ ~ execute @s[y=0,dy=-10] ~ ~ ~ spreadplayers ~ ~ 19 20 false @e[tag=tp]\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~5 ~1 ~ {auto:1,Command:\"execute @a ~ ~ ~ effect @s[y=0,dy=-10] resistance 3 240 true\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~4 ~1 ~ {auto:1,Command:\"execute @a ~ ~ ~ execute @s[y=0,dy=-10] ~ ~ ~ summon armor_stand ~ ~ ~ {Tags:[tp],Invisible:1}\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~3 ~1 ~ {auto:1,Command:\"execute @a ~ ~ ~ detect ~ ~ ~ lava -1 effect @p instant_health 2 5 true\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~3 ~1 ~1 {auto:1,Command:\"execute @a ~ ~ ~ detect ~ ~ ~ lava -1 effect @p levitation 1 5 true\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~4 ~1 ~1 {auto:1,Command:\"execute @a ~ ~ ~ detect ~ ~ ~ lava -1 effect @p regeneration 10 5 true\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~5 ~1 ~1 {auto:1,Command:\"execute @a ~ ~ ~ detect ~ ~ ~ lava -1 particle heart ~ ~ ~ 1 1 1 0.01 30 force\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~6 ~1 ~1 {auto:1,Command:\"execute @a[score_Riding_min=1,ry=-45,rym=-135] ~ ~ ~ detect ~ ~1 ~ rail -1 execute @a[score_Riding_min=1,ry=-45,rym=-135] ~ ~ ~ detect ~1 ~1 ~ rail -1 entitydata @e[type=minecart,c=1] {Motion:[2.0,0.0,0.0]}\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~7 ~1 ~1 {auto:1,Command:\"execute @a[score_Riding_min=1,rym=45,ry=135] ~ ~ ~ detect ~ ~1 ~ rail -1 execute @a[score_Riding_min=1,rym=45,ry=135] ~ ~ ~ detect ~-1 ~1 ~ rail -1 entitydata @e[type=minecart,c=1] {Motion:[-2.0,0.0,-2.0]}\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~8 ~1 ~1 {auto:1,Command:\"execute @a[score_Riding_min=1,rym=-44,ry=44] ~ ~ ~ detect ~ ~1 ~ rail -1 execute @a[score_Riding_min=1,rym=-44,ry=44] ~ ~ ~ detect ~ ~1 ~1 rail -1 entitydata @e[type=minecart,c=1] {Motion:[0.0,0.0,2.0]}\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~9 ~1 ~1 {auto:1,Command:\"execute @a[score_Riding_min=1,rym=135,ry=-135] ~ ~ ~ detect ~ ~1 ~ rail -1 execute @a[score_Riding_min=1,rym=135,ry=-135] ~ ~ ~ detect ~ ~1 ~-1 rail -1 entitydata @e[type=minecart,c=1] {Motion:[0.0,0.0,-2.0]}\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~10 ~1 ~1 {auto:1,Command:\"scoreboard players set @a Riding 1 {RootVehicle:{Entity:{id:\\\"minecraft:minecart\\\"}}}\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~11 ~1 ~1 {auto:1,Command:\"scoreboard players set @a Riding 0\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~11 ~ ~1 {auto:1,Command:\"execute @a[score_holding=4,score_holding_min=4] ~ ~ ~ fill ~-2 ~4 ~-2 ~2 ~ ~2 air 0 replace stone -1\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~10 ~ ~1 {auto:1,Command:\"scoreboard players set @a holding 4 {SelectedItem:{id:\\\"minecraft:stone_pickaxe\\\"}}\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~9 ~ ~1 {auto:1,Command:\"execute @a[score_holding=3,score_holding_min=3] ~ ~ ~ gamerule randomTickSpeed 9999\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~8 ~ ~1 {auto:1,Command:\"gamerule randomTickSpeed 3\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~7 ~ ~1 {auto:1,Command:\"scoreboard players set @a holding 3 {SelectedItem:{id:\\\"minecraft:stone_hoe\\\"}}\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~6 ~ ~1 {auto:1,Command:\"scoreboard players set @a holding 3 {SelectedItem:{id:\\\"minecraft:golden_hoe\\\"}}\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~5 ~ ~1 {auto:1,Command:\"scoreboard players set @a holding 3 {SelectedItem:{id:\\\"minecraft:wooden_hoe\\\"}}\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~4 ~ ~1 {auto:1,Command:\"scoreboard players set @a holding 3 {SelectedItem:{id:\\\"minecraft:iron_hoe\\\"}}\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~3 ~ ~1 {auto:1,Command:\"scoreboard players set @a holding 3 {SelectedItem:{id:\\\"minecraft:diamond_hoe\\\"}}\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~3 ~ ~ {auto:1,Command:\"execute @a ~ ~ ~ detect ~1 ~ ~-1 furnace -1 replaceitem block ~-1 ~ ~-1 slot.container.1 coal 64\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~4 ~ ~ {auto:1,Command:\"execute @a ~ ~ ~ detect ~1 ~ ~1 furnace -1 replaceitem block ~-1 ~ ~1 slot.container.1 coal 64\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~5 ~ ~ {auto:1,Command:\"execute @a ~ ~ ~ detect ~-1 ~ ~-1 furnace -1 replaceitem block ~1 ~ ~-1 slot.container.1 coal 64\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~6 ~ ~ {auto:1,Command:\"execute @a ~ ~ ~ detect ~-1 ~ ~1 furnace -1 replaceitem block ~1 ~ ~1 slot.container.1 coal 64\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~7 ~ ~ {auto:1,Command:\"execute @a ~ ~ ~ detect ~-1 ~ ~ furnace -1 replaceitem block ~-1 ~ ~ slot.container.1 coal 64\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~8 ~ ~ {auto:1,Command:\"execute @a ~ ~ ~ detect ~1 ~ ~ furnace -1 replaceitem block ~1 ~ ~ slot.container.1 coal 64\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~9 ~ ~ {auto:1,Command:\"execute @a ~ ~ ~ detect ~ ~ ~-1 furnace -1 replaceitem block ~ ~ ~-1 slot.container.1 coal 64\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~10 ~ ~ {auto:1,Command:\"execute @a ~ ~ ~ detect ~ ~ ~1 furnace -1 replaceitem block ~ ~ ~1 slot.container.1 coal 64\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~11 ~ ~ {auto:1,Command:\"give @a[score_holding_min=2,score_holding=2] crafting_table\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~11 ~ ~-1 {auto:1,Command:\"clear @a[score_holding_min=2,score_holding=2] planks -1 4\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~10 ~ ~-1 {auto:1,Command:\"scoreboard players set @a holding 2 {SelectedItem:{id:\\\"minecraft:planks\\\",Count:4b}}\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~9 ~ ~-1 {auto:1,Command:\"scoreboard players set @a[score_mine3_min=25] mine3 0\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~8 ~ ~-1 {auto:1,Command:\"execute @a[ry=-45,rym=-135,rx=90,rxm=41,score_mine3_min=25] ~ ~ ~ setblock ~1 ~ ~ air 0 destroy\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~7 ~ ~-1 {auto:1,Command:\"execute @a[ry=-45,rym=-135,rx=90,rxm=41] ~ ~ ~ detect ~1 ~ ~ air -1 scoreboard players set @p mine3 0\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~6 ~ ~-1 {auto:1,Command:\"execute @a[ry=-45,rym=-135,rx=90,rxm=41] ~ ~ ~ detect ~1 ~ ~ minecraft:log2 -1 scoreboard players add @p mine3 1\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~5 ~ ~-1 {auto:1,Command:\"execute @a[ry=-45,rym=-135,rx=90,rxm=41] ~ ~ ~ detect ~1 ~ ~ minecraft:log -1 scoreboard players add @p mine3 1\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~4 ~ ~-1 {auto:1,Command:\"execute @a[rym=45,ry=135,rx=90,rxm=41,score_mine3_min=25] ~ ~ ~ setblock ~-1 ~ ~ air 0 destroy\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~3 ~ ~-1 {auto:1,Command:\"execute @a[rym=45,ry=135,rx=90,rxm=41] ~ ~ ~ detect ~-1 ~ ~ air -1 scoreboard players set @p mine3 0\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~3 ~-1 ~-1 {auto:1,Command:\"execute @a[rym=45,ry=135,rx=90,rxm=41] ~ ~ ~ detect ~-1 ~ ~ minecraft:log2 -1 scoreboard players add @p mine3 1\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~4 ~-1 ~-1 {auto:1,Command:\"execute @a[rym=45,ry=135,rx=90,rxm=41] ~ ~ ~ detect ~-1 ~ ~ minecraft:log -1 scoreboard players add @p mine3 1\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~5 ~-1 ~-1 {auto:1,Command:\"execute @a[rym=-44,ry=44,rx=90,rxm=41,score_mine3_min=25] ~ ~ ~ setblock ~ ~ ~1 air 0 destroy\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~6 ~-1 ~-1 {auto:1,Command:\"execute @a[rym=-44,ry=44,rx=90,rxm=41] ~ ~ ~ detect ~ ~ ~1 air -1 scoreboard players set @p mine3 0\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~7 ~-1 ~-1 {auto:1,Command:\"execute @a[rym=-44,ry=44,rx=90,rxm=41] ~ ~ ~ detect ~ ~ ~1 minecraft:log2 -1 scoreboard players add @p mine3 1\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~8 ~-1 ~-1 {auto:1,Command:\"execute @a[rym=-44,ry=44,rx=90,rxm=41] ~ ~ ~ detect ~ ~ ~1 minecraft:log -1 scoreboard players add @p mine3 1\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~9 ~-1 ~-1 {auto:1,Command:\"execute @a[rym=135,ry=-135,rx=90,rxm=41,score_mine3_min=25] ~ ~ ~ setblock ~ ~ ~-1 air 0 destroy\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~10 ~-1 ~-1 {auto:1,Command:\"execute @a[rym=135,ry=-135,rx=90,rxm=41] ~ ~ ~ detect ~ ~ ~-1 air -1 scoreboard players set @p mine3 0\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~11 ~-1 ~-1 {auto:1,Command:\"execute @a[rym=135,ry=-135,rx=90,rxm=41] ~ ~ ~ detect ~ ~ ~-1 minecraft:log2 -1 scoreboard players add @p mine3 1\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~11 ~-1 ~ {auto:1,Command:\"execute @a[rym=135,ry=-135,rx=90,rxm=41] ~ ~ ~ detect ~ ~ ~-1 minecraft:log -1 scoreboard players add @p mine3 1\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~10 ~-1 ~ {auto:1,Command:\"scoreboard players set @a[score_mine2_min=25] mine2 0\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~9 ~-1 ~ {auto:1,Command:\"execute @a[ry=-45,rym=-135,rx=-36,rxm=-90,score_mine2_min=25] ~ ~ ~ setblock ~1 ~2 ~ air 0 destroy\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~8 ~-1 ~ {auto:1,Command:\"execute @a[ry=-45,rym=-135,rx=-36,rxm=-90] ~ ~ ~ detect ~1 ~2 ~ air -1 scoreboard players set @p mine2 0\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~7 ~-1 ~ {auto:1,Command:\"execute @a[ry=-45,rym=-135,rx=-36,rxm=-90] ~ ~ ~ detect ~1 ~2 ~ minecraft:log2 -1 scoreboard players add @p mine2 1\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~6 ~-1 ~ {auto:1,Command:\"execute @a[ry=-45,rym=-135,rx=-36,rxm=-90] ~ ~ ~ detect ~1 ~2 ~ minecraft:log -1 scoreboard players add @p mine2 1\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~5 ~-1 ~ {auto:1,Command:\"execute @a[rym=45,ry=135,rx=-36,rxm=-90,score_mine2_min=25] ~ ~ ~ setblock ~-1 ~2 ~ air 0 destroy\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~4 ~-1 ~ {auto:1,Command:\"execute @a[rym=45,ry=135,rx=-36,rxm=-90] ~ ~ ~ detect ~-1 ~2 ~ air -1 scoreboard players set @p mine2 0\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~3 ~-1 ~ {auto:1,Command:\"execute @a[rym=45,ry=135,rx=-36,rxm=-90] ~ ~ ~ detect ~-1 ~2 ~ minecraft:log2 -1 scoreboard players add @p mine2 1\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~3 ~-1 ~1 {auto:1,Command:\"execute @a[rym=45,ry=135,rx=-36,rxm=-90] ~ ~ ~ detect ~-1 ~2 ~ minecraft:log -1 scoreboard players add @p mine2 1\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~4 ~-1 ~1 {auto:1,Command:\"execute @a[rym=-44,ry=44,rx=-36,rxm=-90,score_mine2_min=25] ~ ~ ~ setblock ~ ~2 ~1 air 0 destroy\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~5 ~-1 ~1 {auto:1,Command:\"execute @a[rym=-44,ry=44,rx=-36,rxm=-90] ~ ~ ~ detect ~ ~2 ~1 air -1 scoreboard players set @p mine2 0\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~6 ~-1 ~1 {auto:1,Command:\"execute @a[rym=-44,ry=44,rx=-36,rxm=-90] ~ ~ ~ detect ~ ~2 ~1 minecraft:log2 -1 scoreboard players add @p mine2 1\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~7 ~-1 ~1 {auto:1,Command:\"execute @a[rym=-44,ry=44,rx=-36,rxm=-90] ~ ~ ~ detect ~ ~2 ~1 minecraft:log -1 scoreboard players add @p mine2 1\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~8 ~-1 ~1 {auto:1,Command:\"execute @a[rym=135,ry=-135,rx=-36,rxm=-90,score_mine2_min=25] ~ ~ ~ setblock ~ ~2 ~-1 air 0 destroy\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~9 ~-1 ~1 {auto:1,Command:\"execute @a[rym=135,ry=-135,rx=-36,rxm=-90] ~ ~ ~ detect ~ ~2 ~-1 air -1 scoreboard players set @p mine2 0\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~10 ~-1 ~1 {auto:1,Command:\"execute @a[rym=135,ry=-135,rx=-36,rxm=-90] ~ ~ ~ detect ~ ~2 ~-1 minecraft:log2 -1 scoreboard players add @p mine2 1\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~11 ~-1 ~1 {auto:1,Command:\"execute @a[rym=135,ry=-135,rx=-36,rxm=-90] ~ ~ ~ detect ~ ~2 ~-1 minecraft:log -1 scoreboard players add @p mine2 1\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~11 ~-2 ~1 {auto:1,Command:\"scoreboard players set @a[score_mine1_min=25] mine1 0\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~10 ~-2 ~1 {auto:1,Command:\"execute @a[ry=-45,rym=-135,rx=40,rxm=-35,score_mine1_min=25] ~ ~ ~ setblock ~1 ~1 ~ air 0 destroy\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~9 ~-2 ~1 {auto:1,Command:\"execute @a[ry=-45,rym=-135,rx=40,rxm=-35] ~ ~ ~ detect ~1 ~1 ~ air -1 scoreboard players set @p mine1 0\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~8 ~-2 ~1 {auto:1,Command:\"execute @a[ry=-45,rym=-135,rx=40,rxm=-35] ~ ~ ~ detect ~1 ~1 ~ minecraft:log2 -1 scoreboard players add @p mine1 1\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~7 ~-2 ~1 {auto:1,Command:\"execute @a[ry=-45,rym=-135,rx=40,rxm=-35] ~ ~ ~ detect ~1 ~1 ~ minecraft:log -1 scoreboard players add @p mine1 1\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~6 ~-2 ~1 {auto:1,Command:\"execute @a[rym=45,ry=135,rx=40,rxm=-35,score_mine1_min=25] ~ ~ ~ setblock ~-1 ~1 ~ air 0 destroy\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~5 ~-2 ~1 {auto:1,Command:\"execute @a[rym=45,ry=135,rx=40,rxm=-35] ~ ~ ~ detect ~-1 ~1 ~ air -1 scoreboard players set @p mine1 0\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~4 ~-2 ~1 {auto:1,Command:\"execute @a[rym=45,ry=135,rx=40,rxm=-35] ~ ~ ~ detect ~-1 ~1 ~ minecraft:log2 -1 scoreboard players add @p mine1 1\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~3 ~-2 ~1 {auto:1,Command:\"execute @a[rym=45,ry=135,rx=40,rxm=-35] ~ ~ ~ detect ~-1 ~1 ~ minecraft:log -1 scoreboard players add @p mine1 1\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~3 ~-2 ~ {auto:1,Command:\"execute @a[rym=-44,ry=44,rx=40,rxm=-35,score_mine1_min=25] ~ ~ ~ setblock ~ ~1 ~1 air 0 destroy\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~4 ~-2 ~ {auto:1,Command:\"execute @a[rym=-44,ry=44,rx=40,rxm=-35] ~ ~ ~ detect ~ ~1 ~1 air -1 scoreboard players set @p mine1 0\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~5 ~-2 ~ {auto:1,Command:\"execute @a[rym=-44,ry=44,rx=40,rxm=-35] ~ ~ ~ detect ~ ~1 ~1 minecraft:log2 -1 scoreboard players add @p mine1 1\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~6 ~-2 ~ {auto:1,Command:\"execute @a[rym=-44,ry=44,rx=40,rxm=-35] ~ ~ ~ detect ~ ~1 ~1 minecraft:log -1 scoreboard players add @p mine1 1\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~7 ~-2 ~ {auto:1,Command:\"execute @a[rym=135,ry=-135,rx=40,rxm=-35,score_mine1_min=25] ~ ~ ~ setblock ~ ~1 ~-1 air 0 destroy\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~8 ~-2 ~ {auto:1,Command:\"execute @a[rym=135,ry=-135,rx=40,rxm=-35] ~ ~ ~ detect ~ ~1 ~-1 air -1 scoreboard players set @p mine1 0\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~9 ~-2 ~ {auto:1,Command:\"execute @a[rym=135,ry=-135,rx=40,rxm=-35] ~ ~ ~ detect ~ ~1 ~-1 minecraft:log2 -1 scoreboard players add @p mine1 1\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~10 ~-2 ~ {auto:1,Command:\"execute @a[rym=135,ry=-135,rx=40,rxm=-35] ~ ~ ~ detect ~ ~1 ~-1 minecraft:log -1 scoreboard players add @p mine1 1\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~11 ~-2 ~ {auto:1,Command:\"scoreboard players tag @e[tag=count_increase] remove count_increase\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~11 ~-2 ~-1 {auto:1,Command:\"entitydata @e[tag=count_increase] {Item:{Count:10b}}\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~10 ~-2 ~-1 {auto:1,Command:\"execute @a[score_holding_min=1,score_holding=1] ~ ~ ~ scoreboard players tag @e[type=item,rm=2] add count_increase {Age:1s}\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~9 ~-2 ~-1 {auto:1,Command:\"execute @a[score_holding_min=1,score_holding=1] ~ ~ ~ /kill @e[r=3,score_ET_min=1]\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~8 ~-2 ~-1 {auto:1,Command:\"scoreboard players set @a holding 1 {SelectedItem:{id:\\\"minecraft:stone_sword\\\"}}\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~7 ~-2 ~-1 {auto:1,Command:\"scoreboard players set @a holding 1 {SelectedItem:{id:\\\"minecraft:golden_sword\\\"}}\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~6 ~-2 ~-1 {auto:1,Command:\"scoreboard players set @a holding 1 {SelectedItem:{id:\\\"minecraft:wooden_sword\\\"}}\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~5 ~-2 ~-1 {auto:1,Command:\"scoreboard players set @a holding 1 {SelectedItem:{id:\\\"minecraft:iron_sword\\\"}}\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~4 ~-2 ~-1 {auto:1,Command:\"scoreboard players set @a holding 1 {SelectedItem:{id:\\\"minecraft:diamond_sword\\\"}}\"}"
+                        },
+                        {id:commandblock_minecart,Command: "blockdata ~3 ~-2 ~-1 {auto:1,Command:\"scoreboard players set @a holding 0\"}"
+                        },
+                        {id:commandblock_minecart,Command: "setblock ~ ~ ~1 command_block 0 0 {Command:\"fill ~ ~-3 ~-1 ~ ~ ~ air\"}"
+                        },
+                        {id:commandblock_minecart,Command: "setblock ~ ~-1 ~1 redstone_block"
+                        },
+                        {id:commandblock_minecart,Command: "kill @e[type=commandblock_minecart,r=1]"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

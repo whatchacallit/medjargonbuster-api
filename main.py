@@ -1,11 +1,14 @@
 import os, logging, uvicorn
+
 from sys import stderr, version
 from dotenv import find_dotenv, load_dotenv
 from fastapi.applications import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from starlette.responses import RedirectResponse
+from app import api
 
 
-from app.api import API_V2
+from app.api import API_V1
 
 #
 # Load environment variables from the '.env' file
@@ -15,45 +18,39 @@ from app.api import API_V2
 load_dotenv(find_dotenv())
 
 
+origins = [
+    "http://localhost",
+    "http://localhost:3000",
+    "http://localhost:8080",
+]
+
+
 # Standard format for all log messages
 LOG_FORMAT = "[%(asctime)s] %(levelname)-8s %(name)-35s %(message)s"
 log = logging.getLogger(__name__)
 log.setLevel(os.environ.get("LOGLEVEL", logging.INFO))
 
 
-# Indicate "default" API version, e.g. what version will be mounted under "/api"
-DEFAULT_API_VERSION = "v2"
+# Indicate "default" API version, e.g. what version will be mounted under "/"
 PREFIX = os.getenv("CLUSTER_ROUTE_PREFIX", "").rstrip("/")
+
 
 # FastAPI App and API versions as Sub Applications
 # see: https://fastapi.tiangolo.com/advanced/sub-applications/#mounting-a-fastapi-application
-app = FastAPI(
-    version=DEFAULT_API_VERSION,
-    title="MedJargonBuster API Server",
-    openapi_prefix=PREFIX,
-)
+app = API_V1
 
-# Those will be mounted under "/api/<key>", e.g. using the key as API version
-API_APPLICATIONS = {
-    "v2": API_V2,
-}
-
-# Sub Apps representing independed (parallel) API versions with breaking changes
-api2 = API_APPLICATIONS["v2"]
-
-
-@app.get("/", include_in_schema=False)
+""" @app.get("/", include_in_schema=False)
 async def about():
-    return RedirectResponse(f"{PREFIX}/api/docs")
+    return RedirectResponse(f"/docs") """
 
-
-# Mount the Sub Applications under their version names
-
-for version, api_app in API_APPLICATIONS.items():
-    app.mount(f"/api/{version}", api_app)
-
-# Mount the "default" API also directly under /api
-app.mount("/api", API_APPLICATIONS[DEFAULT_API_VERSION])
+# Add CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 @app.on_event("startup")

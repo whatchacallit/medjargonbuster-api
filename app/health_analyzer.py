@@ -14,7 +14,7 @@ from app.models import PIPELINE_STAGES as STAGE
 
 class HealthAnalyzer(object):
     """
-    Analyzes the document using Azure Text Analytics for health
+    Analyzes the document using Azure Text Analytics for health.
     """
 
     nlp: Language = None
