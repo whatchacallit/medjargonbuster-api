@@ -19,8 +19,17 @@ Results from the NLP stages are aggregated and filtered into before sending it b
 ## Tech Stack
 * Python 3.8+
 * pip / pip3
-* spaCy
-
+* spaCy 2.x
+* FastAPI / uvicorn
+* Starlette
+* Pydantic
+* Apache Tika
+* Python lib: "wikipedia"
+* Python lib: "newspaper3k"
+* Azure Services
+  * 
+* 3rd party Cloud APIs
+ * 
 # Run locally
 You can run, test, debug the API server locally. 
 However, some text processing steps will require calling external (REST) services, such as Azure Cognitive services.
@@ -90,39 +99,5 @@ or use the CLI:
 ```
 az ...
 ```
-
-
-# Create a 
-
-
-# Links and resources
-
-## Med Jargon Buster
-* Homepage
-* Technical documentation
-
-* Presentation 1
-* Presentation 2
-* Demo Video
-* Miro Whiteboard
-
-## APIs, Cloud Services and Libraries
-* Azure Computer Vision
-* Azure Text Analytics
-* Azure Text Analytics for Health
-* Azure Immersive Reader
-
-* Abbyy Cloud OCR (optional) - SDK
-* Merriam-Webster Medical Dictionary v3 API
-
-
-* spaCy
-* FastAPI
-* Starlette
-* Pydantic
-* Apache Tika
-* Python lib: "wikipedia"
-* Python lib: "newspaper3k"
-
 
 
